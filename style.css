@@ -1,0 +1,351 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #b3b3b4;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li, a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.my-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:  #24252A;
+
+    
+
+}
+
+.my-header h1{
+    padding-left: 150px;
+    color: #edf0f1;
+    cursor: pointer;
+}
+
+
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    padding-right: 150px;
+}
+
+.nav-links li{
+    /* display: inline-block;  */
+    padding: 0px 20px;
+}
+
+/* .nav-links li a :hover{
+    color: #0088a9;
+} */
+
+
+.welcome{
+    display: flex;
+    width: 100%;
+    background-color: rgb(46, 54, 54);
+}
+
+.myImage{
+    padding-left: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+}
+
+.myImage img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.aboutme{
+
+    padding-top: 250px;
+    padding-left: 200px;
+
+}
+
+.aboutme h1{
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #edf0f1;
+}
+
+.aboutme  p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+}
+
+
+.project-section{
+    background-color: #827C7C;
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    width: 100%;
+}
+
+.project-section h1{
+    padding-left: 640px;
+    padding-bottom: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: #edf0f1;
+}
+
+.project-images{
+    display: flex;
+    justify-content: center;
+}
+
+.proj-one{
+    margin: 20px;
+}
+
+.proj-one .card-one img{
+    border-radius: 5px 5px 5px 5px;
+}
+
+.proj-one .card-one h4{
+
+    padding-left: 150px;
+    padding-bottom: 20px;
+    color: #edf0f1;
+}
+
+.proj-one .card-one .container p{
+    padding-left: 50px;
+    padding-top: 20px;
+    color: #edf0f1;
+
+}
+
+.proj-two{
+    margin: 20px;
+}
+.proj-two .card-two img{
+    border-radius: 5px 5px 5px 5px;
+}
+
+.proj-two .card-two h4{
+    padding-left: 150px;
+    padding-bottom: 20px;
+    color: #edf0f1;
+}
+
+.proj-two .card-two .container p{
+    padding-left: 50px;
+    padding-top: 20px;
+    color: #edf0f1;
+
+}
+
+.proj-three{
+    margin: 20px;
+}
+
+.proj-three .card-three img{
+    border-radius: 5px 5px 5px 5px;
+}
+
+.proj-three .card-three h4{
+    padding-left: 150px;
+    padding-bottom: 20px;
+    color: #edf0f1;
+}
+
+
+.proj-three .card-three .container p{
+    padding-left: 50px;
+    padding-top: 20px;
+    color: #edf0f1;
+
+}
+
+.contact-me{
+    padding-top: 80px;
+    padding-left: 50px;
+    background-color: #2E3636;
+    
+}
+
+.contact-me h1{
+    padding-left: 640px;
+    padding-bottom: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: #edf0f1;
+}
+
+.socialHundles{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.socialHundles h4{
+    margin-top: 10px;
+    color: #edf0f1;
+}
+
+.socialHundles a{
+    text-decoration: none;
+}
+
+.socialHundles a i{
+    font-size: 40px;
+}
+
+.footer{
+    padding-top:  100px;
+    padding-bottom: 100px;
+    padding-left: 600px;
+    color: #edf0f1;
+    background-color: #2E3636;
+}
+
+hr{
+    border: 1px solid #24252A;
+}
+
+@media (max-width:400px){
+
+    .my-header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .welcome{
+        flex-direction: column;
+    }
+    .myImage{
+        padding-left: 80px;
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    .myImage img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    .aboutme{
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .aboutme  p{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        color: #edf0f1;
+    }
+
+
+
+    /* .project-section{
+        background-color: #827C7C;
+        padding-top: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 60px;
+    } */
+
+    .project-section h1{
+        padding-left: 20px;
+        
+    }
+
+    .project-images{
+        flex-direction: column;
+        width: 97%;
+    }
+
+    .proj-one{
+        margin: 10px;
+    }
+
+    .proj-one .card-one img{
+        width: 200px;
+        height: 300px;
+        padding-right: 160px;
+        padding-left: -10px;
+    }
+
+
+    .proj-two .card-two img{
+        width: 200px;
+        height: 300px;
+        padding-right: 160px;
+        padding-left: -10px;
+    }
+
+    .proj-three .card-three img{
+        width: 200px;
+        height: 300px;
+        padding-right: 160px;
+        padding-left: -10px;
+    }
+
+    .contact-me h1{
+        padding-left: 20px;
+    }
+
+    .socialHundles{
+        flex-direction: column;
+        padding-left: 100px;
+    }
+
+    .socialHundles .github{
+        margin: 20px;
+    }
+
+    .socialHundles .instagram{
+        margin: 20px;
+    }
+
+    .socialHundles .linkedIn{
+        margin: 20px;
+    }
+
+    .footer{
+       padding-left: 95px;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        overflow-x:hidden;
+    }
+
+}
